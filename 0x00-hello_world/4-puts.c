@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - program that orints exactly the sentence that was given using the printf function
- * return 0 (this shows suiccesful)
+ * main - A program that print line with puts function
+ * Return: 0 (succeess)
  */
-int main (boid) {
-printf("/"Programming is like building a multilingual puzzle")
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
+}
