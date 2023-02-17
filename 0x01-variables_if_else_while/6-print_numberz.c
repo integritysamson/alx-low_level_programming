@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - This is where our input will be stored
+ * Return: Alawys return 0
+ *
+ */
 int main(void)
 {
 int d;
