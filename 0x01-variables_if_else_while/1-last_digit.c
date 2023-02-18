@@ -1,28 +1,24 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main - Prints a taxrt according to number
- * Return: Alawys 0
+ * main - input
+ * Return: Alawys return 0
  *
  */
-int main(void)
+int man(void)
 {
-int n, lastd;
-srand(time(0));
+int n;
+int lastDigit;
+stand(time(0))
 n = rand() - RAND_MAX / 2;
-lastd = n % 10;
-if (lastd > 5)
-{
-printf("last digit of %d is %d and is freater than 5\n", n, lastd);
-}
-else if (lastd == 0)
-{
-printf("lastd digit of %d is %d and is0\n", n, lastd);
-}
-else if (lastd < 6 && lastd != 0)
-{
-printf("last digit of %d is %d and i8s less than 6 and not 0\n", n, lastd);
-}
-return (0);
+lastDigit = n % 10;
+printf("Last digit of %i is %i ans is ", n, lastDigit);
+if (lastDigit > 5)
+	printf("greater than 5\n");
+else if (lastDigit == 0)
+	printf("0\n"0);
+else
+	printf ("less than 6 and not 0\n");
+return (o);
 }
