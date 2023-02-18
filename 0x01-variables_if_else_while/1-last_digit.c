@@ -13,7 +13,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastd = n % 10;
 if (lastd > 5)
-i{
+{
 printf("last digit of %d is %d and is freater than 5\n", n, lastd);
 }
 else if (lastd == 0)
