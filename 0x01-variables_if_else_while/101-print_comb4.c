@@ -8,22 +8,24 @@
  */
 int main(void)
 {
-int d, p, q;
-for (d = '0'; p < '9'; d++)
+int a, b, c;
+for (a = '0'; a < '9'; a++)
 {
-for (p = d + 1; p <= '9'; p++)
+for (b = a + 1; b <= '9'; b++)
 {
-for (q = p + 1; q <= '9'; q++)
+
+for (c = b + 1; c <= '9'; c++)
 {
-if ((p != d) != q)
+if ((b != a) != c)
 {
-putchar(d);
-putchar(p);
-putchar(q);
-if (d == '7' && p == '8')
+putchar(a);
+putchar(b);
+putchar(c);
+if (a == '7' && b == '8')
 continue;
 putchar(',');
 putchar(' ');
+putchar('.');
 }
 }
 }
