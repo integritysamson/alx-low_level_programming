@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-char low =  'e',  'q';
-e = 'f';
-q  = 'b';
-for (low = 'a' low <= 'z'; low++)
+char low = 'a';
+for (low = 'a'; low <= 'z'; low++)
+if (low != 'q' && low != 'e')
 {
-if (low != e && low != q)
+putchar(low);
 }
 putchar('\n');
 return (0);
