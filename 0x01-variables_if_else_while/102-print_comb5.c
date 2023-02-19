@@ -24,6 +24,7 @@ int a,  b;
 			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
 
