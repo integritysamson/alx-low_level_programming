@@ -21,6 +21,6 @@ long j = 1, k = 2;
 		}
 		++i;
 	}
-	printf("\n")
+	printf("\n");
 		return (0);
 }
