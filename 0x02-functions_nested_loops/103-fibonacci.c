@@ -1,20 +1,23 @@
 #include <stdio.h>
 /**
- * main - Prints the sum of even fibonacci numbers
- * Return: Nothing
+ *main - prints the sum of the even-valued terms in a fibonacci
+ *Return: 0 always.
  */
 int main(void)
 {
-int i = 0;
-long j = 1, k = 2, sum  = k;
-	while (k + j < 400000)
+	long int i, x = 1, y = 2, sum = 0, tSum = 0;
+
+	for (i = 0; i < 49; i++)
+	{
+		if ((y % 2 == 0) && (y <= 4000000))
 		{
-			k += j;
-			if (k % 2 == 0)
-				sum += k;
-			j = k - j;
-			++i;
+			tSum = tSum + y;
 		}
-printf("%d\n", sum);
-		return (0);
+		sum = x + y;
+		x = y;
+		y = sum;
+
+	}
+	printf("%ld\n", tSum);
+	return (0);
 }
