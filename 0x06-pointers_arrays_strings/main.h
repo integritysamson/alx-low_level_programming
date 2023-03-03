@@ -1,7 +1,10 @@
 #ifndef MAIN_H
+
 #define MAIN_H
+
 #include <stdio.h>
-int _putchar(void c);
+
+int _putchar(char c);
 void print_number(int n);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
