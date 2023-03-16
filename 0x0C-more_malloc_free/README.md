@@ -1,0 +1,1 @@
+This file contains the more malloc and free in c programminf language. this will teach student to understand better how to allocate memory and memory reallocation using the the two terminologies "MALLOC AND REALLOC"
