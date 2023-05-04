@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * get_bit - The program that returns the value of a bit at a given index.
+ * get_bit - The program that returns 
+ * the value of a bit at a given index.
  * @n: This represent unsigned long interger input.
- * @index: index of the bit
+ * @index: bit index represenytation
  *
  * Return: value of the bit
  */
