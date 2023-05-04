@@ -4,7 +4,7 @@
  * get_bit - The program that returns 
  * the value of a bit at a given index.
  * @n: This represent unsigned long interger input.
- * @index: bit index represenytation
+ * @index: bit index representation
  *
  * Return: value of the bit
  */
