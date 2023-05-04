@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_binary - program to print out the binary representation of a particular number.
- *
+ * print_binary - program to print out the 
+ * binary representation of a particular number.
  * @n: This represent the binary
  */
 
