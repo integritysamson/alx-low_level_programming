@@ -12,7 +12,7 @@ void close_file(int d);
 char *create_buffer(char *file)
 {
 char *buf;
-buffer = malloc(sizeof(char) * 1024);
+buf = malloc(sizeof(char) * 1024);
 if (buf == NULL)
 {
 dprintf(STDERR_FILENO,
